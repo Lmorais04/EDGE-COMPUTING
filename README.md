@@ -35,6 +35,14 @@ Manutenção:<br><br>
 
 ## Como incluir biblioteca no arduino?<br><br>
 
+![passo1](https://github.com/Lmorais04/EDGE-COMPUTING/assets/127115198/ee6f867e-ad76-45ca-a618-e7851a0b26e4)
+![passo2](https://github.com/Lmorais04/EDGE-COMPUTING/assets/127115198/0c5a2514-47cd-452f-9218-a7693b206f6f)
+![passo3](https://github.com/Lmorais04/EDGE-COMPUTING/assets/127115198/a47d254a-8c24-40e3-a062-0770b6ab596d)
+![passo4](https://github.com/Lmorais04/EDGE-COMPUTING/assets/127115198/4ab22ee8-ce6c-4208-8b4e-4002c8161fa5)
+
+
+## Como baixar o IDE arduino?
+https://docs.arduino.cc/software/ide-v1/tutorials/Windows
  
 ## contribuição<br>
 https://github.com/ZeusBiel<br>
