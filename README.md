@@ -13,6 +13,7 @@ Configuração:<br><br>
 1-No código do Arduino, verifique se o sensor de temperatura está corretamente configurado e calibrado. Certifique-se de que os valores de leitura analógica estão mapeados corretamente para a escala de temperatura desejada.<br>
 2-Certifique-se de que o display LCD esteja configurado corretamente para exibir as leituras de temperatura e umidade do solo.<br>
 ### Instalação ![Foto do projeto](https://github.com/Lmorais04/EDGE-COMPUTING/assets/127115198/fef4c82a-f544-4611-a916-9dbc94b14a5a)
+[CODE ARDUINO.TXT](https://github.com/Lmorais04/EDGE-COMPUTING/files/11619207/CODE.ARDUINO.TXT)
   
 Operação:<br><br>
   1-Ligue o sistema de irrigação e deixe-o funcionar automaticamente, de acordo com as configurações pré-determinadas.<br>
@@ -33,7 +34,7 @@ Manutenção:<br><br>
 1- Conexão com a rede elétrica: Verifique se há disponibilidade de uma fonte de energia elétrica estável e próxima do local de instalação do sistema. Caso contrário, será necessário utilizar baterias ou painéis solares para alimentar o sistema.<br><br> 2-Internet ou conectividade: Se a plataforma de controle do sistema de irrigação automatizado requer acesso à internet para comunicação ou atualização de dados, verifique se há uma conexão estável e confiável disponível no local.<br><br> 3-Instalação adequada: Certifique-se de seguir as instruções de instalação do sistema de irrigação automatizado e posicionar corretamente o sensor de temperatura no local de cultivo para obter leituras precisas e representativas.<br><br> 4-Calibração do sensor: É importante realizar a calibração do sensor de temperatura de acordo com as instruções do fabricante ou do sistema utilizado. Isso garantirá que as leituras sejam precisas e confiáveis.<br> 5-Manutenção regular: Para garantir o funcionamento adequado do sistema, é recomendado realizar manutenções regulares, como limpeza dos componentes, verificação de cabos e conexões, substituição de baterias, se aplicável, e calibração periódica do sensor de temperatura.<br><br> 6-Treinamento e familiarização: É recomendado que os usuários do sistema recebam treinamento adequado sobre o funcionamento, configuração e uso do sistema de irrigação automatizado com sensor de temperatura. Isso garantirá um uso eficiente e correto do sistema.<br><br> 7-Compatibilidade com outras tecnologias: Se o sistema de irrigação automatizado com sensor de temperatura for integrado a outras tecnologias ou plataformas, verifique a compatibilidade entre os diferentes componentes e sistemas para garantir uma operação integrada e eficaz.
  
 
-[CODE ARDUINO.TXT](https://github.com/Lmorais04/EDGE-COMPUTING/files/11619207/CODE.ARDUINO.TXT)
+
 
 
 
