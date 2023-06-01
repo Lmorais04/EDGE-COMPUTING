@@ -12,6 +12,37 @@ Instalação:<br> 1-Posicione o sensor de temperatura em um local representativo
 Configuração:<br><br>
 1-No código do Arduino, verifique se o sensor de temperatura está corretamente configurado e calibrado. Certifique-se de que os valores de leitura analógica estão mapeados corretamente para a escala de temperatura desejada.<br>
 2-Certifique-se de que o display LCD esteja configurado corretamente para exibir as leituras de temperatura e umidade do solo.<br>
+## LIGANDO O MOTOR CC
+3- Caso você esteja utilizando um motor CC no sistema de irrigação, certifique-se de que ele esteja corretamente conectado ao Arduino, utilizando os pinos adequados.<br>
+4- No código do Arduino, implemente a lógica de controle do motor CC. Isso pode envolver o uso de um driver de motor, como um L298N, para controlar a direção e velocidade do motor.<br>
+5- Defina os parâmetros de controle do motor CC de acordo com as necessidades do sistema de irrigação, como a velocidade de rotação e a direção do motor.<br>
+6- Realize testes para verificar se o motor CC está respondendo corretamente aos comandos do Arduino. Verifique se o motor gira na direção correta e se a velocidade está de acordo com as configurações definidas.<br>
+7- Faça ajustes no código, se necessário, para otimizar o desempenho do motor CC e garantir um controle preciso da irrigação.<br>
+8-Valvula solenoide ligada juntamente.
+  ### Configurando o MOTOR CC
+1- No código do Arduino, defina os pinos de controle do motor CC como saídas.<br>
+2- Implemente a lógica de controle do motor CC no código, utilizando funções como analogWrite() para controlar a velocidade e digitalWrite() para controlar a direção.<br>
+3- Defina os parâmetros de controle desejados, como a velocidade de rotação e a direção do motor.<br>
+4- Realize testes para verificar se o motor CC está respondendo corretamente aos comandos do Arduino. Verifique se o motor gira na direção correta e se a velocidade está de acordo com as configurações definidas.<br>
+5- Faça ajustes no código, se necessário, para otimizar o desempenho e a precisão do controle do motor CC.<br>
+
+## Adicionando uma valvula solenoide à fonte de água e à área de irrigação da plantação
+1-Posicione a válvula solenoide em um local adequado, próximo à fonte de água e à área de irrigação da plantação.<br>
+2-Verifique a tensão de alimentação necessária para a válvula solenoide e certifique-se de ter uma fonte de energia adequada.<br
+3-Conecte os fios de alimentação da válvula solenoide aos terminais apropriados do sistema de energia ou do driver de válvula solenoide.<br>
+4-Se estiver utilizando um driver de válvula solenoide, conecte os fios de controle do driver ao Arduino, utilizando os pinos corretos.<br>
+5- Certifique-se de que todas as conexões estejam firmes e seguras.<br>
+6- Verifique se a válvula solenoide está corretamente fixada na tubulação de água, garantindo que não haja vazamentos ou obstruções que possam prejudicar seu funcionamento.
+### Configurando a valvula solenoide
+1- No código do Arduino, defina o pino de controle da válvula solenoide como uma saída.<br>
+2- Implemente a lógica de controle da válvula solenoide no código, utilizando a função digitalWrite() para ligar e desligar a válvula.<br>
+3- Identifique o momento em que o motor CC deve ser acionado para puxar a água da fonte.<br>
+4- Antes de acionar o motor CC, abra a válvula solenoide utilizando digitalWrite() para permitir o fluxo de água para o sistema de irrigação.<br>
+5- Em seguida, acione o motor CC utilizando as funções apropriadas, como analogWrite() e digitalWrite(), para controlar a velocidade e a direção do motor.<br>
+6- Após um período adequado de irrigação, desligue o motor CC e feche a válvula solenoide utilizando digitalWrite().<br>
+
+
+
 ### Instalação![Captura de tela 2023-05-31 215709](https://github.com/Lmorais04/EDGE-COMPUTING/assets/127115198/5b4ed574-badc-4648-a8f8-cb591f3ed8fa)
   
 [CODE ARDUINO.TXT](https://github.com/Lmorais04/EDGE-COMPUTING/files/11619896/CODE.ARDUINO.TXT)
@@ -29,7 +60,7 @@ Manutenção:<br><br>
 3-Monitore o desempenho do sistema ao longo do tempo e faça ajustes nas configurações, se necessário, para melhor atender às necessidades do seu cultivo.
  
 # Requisitos do sistema de irrigação automatizado com sensor de temperatura
- 1-Sensor de temperatura<br> 2-Arduino ou dispositivo de controle<br> 3-Display LCD<br> 4-Sistema de irrigação<br> 5-Conexões e cabos<br> 6-Fonte de energia<br> 7-Calibração e programação<br> 8-Motor cc 12V
+ 1-Sensor de temperatura<br> 2-Arduino ou dispositivo de controle<br> 3-Display LCD<br> 4-Sistema de irrigação<br> 5-Conexões e cabos<br> 6-Fonte de energia<br> 7-Calibração e programação<br> 8-Motor cc 12V<br> 9-Valvula solenoide
 
 
 
