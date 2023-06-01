@@ -12,8 +12,11 @@ Instalação:<br> 1-Posicione o sensor de temperatura em um local representativo
 Configuração:<br><br>
 1-No código do Arduino, verifique se o sensor de temperatura está corretamente configurado e calibrado. Certifique-se de que os valores de leitura analógica estão mapeados corretamente para a escala de temperatura desejada.<br>
 2-Certifique-se de que o display LCD esteja configurado corretamente para exibir as leituras de temperatura e umidade do solo.<br>
-### Instalação ![Foto do projeto](https://github.com/Lmorais04/EDGE-COMPUTING/assets/127115198/fef4c82a-f544-4611-a916-9dbc94b14a5a)
-[CODE ARDUINO.TXT](https://github.com/Lmorais04/EDGE-COMPUTING/files/11619207/CODE.ARDUINO.TXT)
+### Instalação![Captura de tela 2023-05-31 215709](https://github.com/Lmorais04/EDGE-COMPUTING/assets/127115198/5b4ed574-badc-4648-a8f8-cb591f3ed8fa)
+  
+[CODE ARDUINO.TXT](https://github.com/Lmorais04/EDGE-COMPUTING/files/11619896/CODE.ARDUINO.TXT)
+
+
   
 Operação:<br><br>
   1-Ligue o sistema de irrigação e deixe-o funcionar automaticamente, de acordo com as configurações pré-determinadas.<br>
@@ -26,7 +29,7 @@ Manutenção:<br><br>
 3-Monitore o desempenho do sistema ao longo do tempo e faça ajustes nas configurações, se necessário, para melhor atender às necessidades do seu cultivo.
  
 # Requisitos do sistema de irrigação automatizado com sensor de temperatura
- 1-Sensor de temperatura<br> 2-Arduino ou dispositivo de controle<br> 3-Display LCD<br> 4-Sistema de irrigação<br> 5-Conexões e cabos<br> 6-Fonte de energia<br> 7-Calibração e programação<br> 
+ 1-Sensor de temperatura<br> 2-Arduino ou dispositivo de controle<br> 3-Display LCD<br> 4-Sistema de irrigação<br> 5-Conexões e cabos<br> 6-Fonte de energia<br> 7-Calibração e programação<br> 8-Motor cc 12V
 
 
 
