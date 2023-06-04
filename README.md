@@ -3,7 +3,6 @@ Integrantes <BR> 1- Gabriel Oliveira Rodrigues RM98565 / ZeusBiel <BR>
 2- Gabriel Riqueto RM98685 / gabriel-riqueto<BR>
 3- Lucas Vinicius de Almeida Brigida RM99094 / Fr3die<BR>
 4- Leandro Ferreira De Morais RM99064 / Lmorais04<BR>
-5- Gustavo Bianchi Velonisqui dos Santos RM98534 / gbianchi07
 ## PROJETO PROPOSTO PARA GLOBAL-SOLUTION
 # Objetivo do Projeto: 
 O sistema utiliza tecnologia avançada para proporcionar uma irrigação eficiente e sustentável, otimizando o uso da água e reduzindo desperdícios.<br><br> Além de controlar a irrigação, o sistema também inclui um sensor de temperatura que mede a temperatura ambiente do local de cultivo.<br><br> O sensor de temperatura é conectado ao Arduino por meio de um pino analógico e realiza leituras periódicas, convertendo o valor lido em uma escala de 0 a 1023.<br><br> O valor da temperatura é mapeado para uma escala de 0 a 50 graus Celsius, fornecendo uma leitura precisa do ambiente de cultivo.<br><br> As informações de temperatura e umidade do solo são exibidas em um display LCD, permitindo que os agricultores monitorem as condições ambientais em tempo real.<br>O monitoramento da temperatura é essencial, pois afeta o metabolismo, a transpiração e a absorção de nutrientes das plantas, permitindo aos agricultores tomar medidas adequadas para garantir o crescimento saudável das plantas.<br><br> Com o sistema de irrigação automatizado e o monitoramento da temperatura, os pequenos agricultores podem obter maior produtividade, eficiência e sustentabilidade em suas operações agrícolas.
